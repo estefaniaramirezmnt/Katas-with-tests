@@ -15,5 +15,6 @@ const abbreviateName = (name) => {
 };
 
 console.log(abbreviateName("Sam Harris"));
+console.log(abbreviateName("Juan Luis Sanz")); // ?? for compound names?
 
 module.exports = abbreviateName;

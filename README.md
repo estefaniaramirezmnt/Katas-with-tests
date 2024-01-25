@@ -12,5 +12,4 @@ For each function, the kata must have several tests that check the different pos
 2. Install the dependencies with `npm install`
 3. Run the tests with `npm test`
 
-## Katas
 
