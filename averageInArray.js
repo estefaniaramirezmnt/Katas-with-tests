@@ -17,3 +17,13 @@ function averageInArray(array) {
 }
 
 module.exports = averageInArray;
+
+// Get the average of an array of numbers using reduce
+
+const averageArrayWithReduce = (array) => {
+    return (array.reduce((a, b) => a + b) / array.length).toFixed(2);
+}
+
+const averageArrayWithReduce2 = (array) => {
+    return Math.round((array.reduce((a, b) => a + b) / array.length) * 10) / 10
+}
