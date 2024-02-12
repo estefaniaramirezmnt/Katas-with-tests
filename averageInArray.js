@@ -2,7 +2,7 @@
 
 function averageInArray(array) {
   if (array.length === 0) {
-    return "Please, enter an array";
+    return "Please, enter an array of integers";
   } else if (!Array.isArray(array)) {
     return "Please, enter a valid array";
   } else if (array.length === 1) {

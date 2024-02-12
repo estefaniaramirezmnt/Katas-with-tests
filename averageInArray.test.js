@@ -1,8 +1,8 @@
 const { default : TestRunner } = require("jest-runner");
 const averageInArray = require(`./averageInArray`);
 
-test ('if array is empty, returns "Please, enter an array"', () => {
-    expect(averageInArray([])).toBe('Please, enter an array of integer');
+test ('if array is empty, returns "Please, enter an array of integers"', () => {
+    expect(averageInArray([])).toBe('Please, enter an array of integers');
 });
 
 test ('if array is not an array, returns "Please, enter a valid array"', () => {
