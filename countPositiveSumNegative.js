@@ -11,7 +11,7 @@ result = / [10, -65]
 function countPositiveSumNegative (arrayOfNumbers) {
     if (arrayOfNumbers === null || arrayOfNumbers.length === 0) {
         return []
-    }
+    } 
     let countOfPositiveNumbers = 0;
     let sumOfNegativeNumbers = 0;
     for (num of arrayOfNumbers) {
