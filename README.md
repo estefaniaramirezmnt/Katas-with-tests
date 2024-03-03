@@ -1,5 +1,7 @@
 # Katas-with-tests
 
+[![Unit test CI](https://github.com/estefaniaramirezmnt/Katas-with-tests/actions/workflows/node.js.yml/badge.svg)](https://github.com/estefaniaramirezmnt/Katas-with-tests/actions/workflows/node.js.yml)
+
 In this repository I will be uploading all the katas I have been doing in Codewars, using JavaScript.
 
 Mainly, I will be using TDD to solve them, and I will be using Jest as my testing framework.
