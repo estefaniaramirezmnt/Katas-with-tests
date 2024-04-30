@@ -12,7 +12,7 @@ function counteringSheeps (arrayOfSheeps) {
     return countOfSheeps;
 }
 
-console.log(counteringSheeps([true, true, true]))
-console.log(counteringSheeps([true, false, true, false, true, true]))
+console.log(counteringSheeps([true, true, true])) // 3
+console.log(counteringSheeps([true, false, true, false, true, true])) // 4
 
 module.exports = counteringSheeps;
