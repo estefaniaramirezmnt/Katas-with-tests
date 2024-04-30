@@ -10,4 +10,4 @@ const valueInArray = (array, value) => {
 
 module.exports = valueInArray;
 
-valueInArray("What a great kata", "a");
+console.log(valueInArray("What a great kata", "a")); // true

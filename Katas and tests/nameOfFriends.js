@@ -17,3 +17,6 @@ function nameOfFriends2(arrayOfFriends) {
 var test = ["Ryan", "Kieran", "Jason", "Yous"]
 console.log(nameOfFriends(test))
 console.log(nameOfFriends2(test))
+
+
+module.exports = nameOfFriends;
